@@ -13,6 +13,8 @@
 		893DC36024C16492001A6133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893DC35E24C16492001A6133 /* Main.storyboard */; };
 		893DC36224C16495001A6133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893DC36124C16495001A6133 /* Assets.xcassets */; };
 		893DC36524C16495001A6133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893DC36324C16495001A6133 /* LaunchScreen.storyboard */; };
+		893DC36D24C165C6001A6133 /* JBPhoneNumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893DC36C24C165C6001A6133 /* JBPhoneNumberFormat.swift */; };
+		89A8BBCA24C51D0800C5D9AB /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A8BBC924C51D0800C5D9AB /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		893DC36124C16495001A6133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		893DC36424C16495001A6133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		893DC36624C16495001A6133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893DC36C24C165C6001A6133 /* JBPhoneNumberFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBPhoneNumberFormat.swift; sourceTree = "<group>"; };
+		89A8BBC924C51D0800C5D9AB /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		893DC35724C16492001A6133 /* JBPhoneNumberFormat */ = {
 			isa = PBXGroup;
 			children = (
-				893DC35824C16492001A6133 /* AppDelegate.swift */,
-				893DC35A24C16492001A6133 /* SceneDelegate.swift */,
 				893DC35C24C16492001A6133 /* ViewController.swift */,
 				893DC35E24C16492001A6133 /* Main.storyboard */,
-				893DC36124C16495001A6133 /* Assets.xcassets */,
-				893DC36324C16495001A6133 /* LaunchScreen.storyboard */,
+				893DC36C24C165C6001A6133 /* JBPhoneNumberFormat.swift */,
 				893DC36624C16495001A6133 /* Info.plist */,
+				89A8BBC824C519AC00C5D9AB /* Supporting Files */,
+				89A8BBC924C51D0800C5D9AB /* String+Ext.swift */,
 			);
 			path = JBPhoneNumberFormat;
+			sourceTree = "<group>";
+		};
+		89A8BBC824C519AC00C5D9AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893DC35824C16492001A6133 /* AppDelegate.swift */,
+				893DC35A24C16492001A6133 /* SceneDelegate.swift */,
+				893DC36124C16495001A6133 /* Assets.xcassets */,
+				893DC36324C16495001A6133 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893DC36D24C165C6001A6133 /* JBPhoneNumberFormat.swift in Sources */,
 				893DC35D24C16492001A6133 /* ViewController.swift in Sources */,
 				893DC35924C16492001A6133 /* AppDelegate.swift in Sources */,
+				89A8BBCA24C51D0800C5D9AB /* String+Ext.swift in Sources */,
 				893DC35B24C16492001A6133 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
