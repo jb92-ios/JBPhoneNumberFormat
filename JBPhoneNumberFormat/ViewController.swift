@@ -15,7 +15,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    //    textField.text = "01012341234".toPhoneNumber()
+    textField.text = "01012341234".toPhoneNumber()
     
     textField.delegate = self
     
