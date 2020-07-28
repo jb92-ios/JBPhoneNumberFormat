@@ -12,13 +12,10 @@ public class JBPhoneNumberFormat {
   private var hyphen: Character = "-"
   private var digits: String = ""
   private var remain010: String?
-  
 }
 
 extension JBPhoneNumberFormat {
   private func appendHyphen(_ index: Int) {
     
   }
-  
-  
 }
